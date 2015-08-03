@@ -10,9 +10,6 @@
 		EF94C6251B6F7C79003C9150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C6241B6F7C79003C9150 /* AppDelegate.swift */; };
 		EF94C6281B6F7C79003C9150 /* WebResponseApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF94C6261B6F7C79003C9150 /* WebResponseApp.xcdatamodeld */; };
 		EF94C62A1B6F7C79003C9150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C6291B6F7C79003C9150 /* ViewController.swift */; };
-		EF94C62D1B6F7C79003C9150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94C62B1B6F7C79003C9150 /* Main.storyboard */; };
-		EF94C62F1B6F7C79003C9150 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF94C62E1B6F7C79003C9150 /* Images.xcassets */; };
-		EF94C6321B6F7C79003C9150 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF94C6301B6F7C79003C9150 /* LaunchScreen.xib */; };
 		EF94C63E1B6F7C79003C9150 /* WebResponseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C63D1B6F7C79003C9150 /* WebResponseAppTests.swift */; };
 		EF94C64B1B6F89B2003C9150 /* WebResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C64A1B6F89B2003C9150 /* WebResponseModel.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +23,19 @@
 			remoteInfo = WebResponseApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF11DBCB1B6F9795005979ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EF94C61F1B6F7C79003C9150 /* WebResponseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebResponseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +146,7 @@
 				EF94C61B1B6F7C79003C9150 /* Sources */,
 				EF94C61C1B6F7C79003C9150 /* Frameworks */,
 				EF94C61D1B6F7C79003C9150 /* Resources */,
+				EF11DBCB1B6F9795005979ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +181,8 @@
 		EF94C6171B6F7C79003C9150 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Danoram;
 				TargetAttributes = {
@@ -206,9 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF94C62D1B6F7C79003C9150 /* Main.storyboard in Resources */,
-				EF94C6321B6F7C79003C9150 /* LaunchScreen.xib in Resources */,
-				EF94C62F1B6F7C79003C9150 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WebResponseApp",
@@ -367,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WebResponseApp",

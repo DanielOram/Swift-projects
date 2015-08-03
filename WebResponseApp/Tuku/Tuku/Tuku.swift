@@ -1,6 +1,6 @@
 //
-//  WebResponseModel.swift
-//  WebResponseApp
+//  Tuku.swift
+//  Tuku
 //
 //  Created by Daniel Oram on 3/08/15.
 //  Copyright (c) 2015 Danoram. All rights reserved.
@@ -8,7 +8,26 @@
 
 import Foundation
 
-public class WebResponseModel {
+//This Framework contains methods for making http requests in order to simplify debugging.
+//made it a structure in order to make static methods
+
+//only GET POST and PUT implemented at present
+
+
+/*
+//example http GET request
+Tuku.httpGET("http://www.google.com", headers: ["": ""], body: "" ) { (postSucceeded: Bool, message: String) -> () in
+var alert = UIAlertView(title: "request sent!", message: message, delegate: nil, cancelButtonTitle: "Okay.")
+
+// Move to the UI thread
+dispatch_async(dispatch_get_main_queue(), { () -> Void in
+// Show the alert
+alert.show()
+})
+}
+*/
+
+public class Tuku {
     
     //each function takes 3-4 parameters: the URL string , request headers in dictionary form, the message body, and an optional function that can be used for debugging purposes or to implement an action or debugging message after a request is sent.
     
@@ -31,7 +50,7 @@ public class WebResponseModel {
             if error != nil {
                 return
             }
-            print("Error making GET request!")
+            println("Error making GET request!")
         }
         task.resume()
     }
@@ -82,7 +101,7 @@ public class WebResponseModel {
             if error != nil {
                 return
             }
-            print("Error making POST request!")
+            println("Error making POST request!")
         }
         task.resume()
     }
@@ -132,7 +151,7 @@ public class WebResponseModel {
             if error != nil {
                 return
             }
-            print("Error making PUT request!")
+            println("Error making PUT request!")
         }
         task.resume()
     }
