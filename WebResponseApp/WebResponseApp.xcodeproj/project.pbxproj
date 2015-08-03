@@ -14,6 +14,8 @@
 		EF94C62F1B6F7C79003C9150 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF94C62E1B6F7C79003C9150 /* Images.xcassets */; };
 		EF94C6321B6F7C79003C9150 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF94C6301B6F7C79003C9150 /* LaunchScreen.xib */; };
 		EF94C63E1B6F7C79003C9150 /* WebResponseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C63D1B6F7C79003C9150 /* WebResponseAppTests.swift */; };
+		EF94C6491B6F8978003C9150 /* Tuku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94C6481B6F8978003C9150 /* Tuku.framework */; };
+		EF94C64B1B6F89B2003C9150 /* WebResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C64A1B6F89B2003C9150 /* WebResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		EF94C6371B6F7C79003C9150 /* WebResponseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebResponseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF94C63C1B6F7C79003C9150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF94C63D1B6F7C79003C9150 /* WebResponseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResponseAppTests.swift; sourceTree = "<group>"; };
+		EF94C6481B6F8978003C9150 /* Tuku.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tuku.framework; sourceTree = "<group>"; };
+		EF94C64A1B6F89B2003C9150 /* WebResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF94C6491B6F8978003C9150 /* Tuku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		EF94C6211B6F7C79003C9150 /* WebResponseApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF94C6471B6F8939003C9150 /* Frameworks */,
 				EF94C6241B6F7C79003C9150 /* AppDelegate.swift */,
 				EF94C6291B6F7C79003C9150 /* ViewController.swift */,
 				EF94C62B1B6F7C79003C9150 /* Main.storyboard */,
@@ -86,6 +92,7 @@
 				EF94C6301B6F7C79003C9150 /* LaunchScreen.xib */,
 				EF94C6261B6F7C79003C9150 /* WebResponseApp.xcdatamodeld */,
 				EF94C6221B6F7C79003C9150 /* Supporting Files */,
+				EF94C64A1B6F89B2003C9150 /* WebResponseModel.swift */,
 			);
 			path = WebResponseApp;
 			sourceTree = "<group>";
@@ -113,6 +120,14 @@
 				EF94C63C1B6F7C79003C9150 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF94C6471B6F8939003C9150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF94C6481B6F8978003C9150 /* Tuku.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +233,7 @@
 				EF94C62A1B6F7C79003C9150 /* ViewController.swift in Sources */,
 				EF94C6251B6F7C79003C9150 /* AppDelegate.swift in Sources */,
 				EF94C6281B6F7C79003C9150 /* WebResponseApp.xcdatamodeld in Sources */,
+				EF94C64B1B6F89B2003C9150 /* WebResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebResponseApp",
+				);
 				INFOPLIST_FILE = WebResponseApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +370,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebResponseApp",
+				);
 				INFOPLIST_FILE = WebResponseApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
