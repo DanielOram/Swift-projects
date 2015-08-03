@@ -27,11 +27,11 @@ alert.show()
 }
 */
 
-public struct Tuku {
+public class Tuku {
     
     //each function takes 3-4 parameters: the URL string , request headers in dictionary form, the message body, and an optional function that can be used for debugging purposes or to implement an action or debugging message after a request is sent.
     
-    public static func httpGET(url: String, headers: [String: String], body: String) {
+    public class func httpGET(url: String, headers: [String: String], body: String) {
         //create request from url param
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "GET"
@@ -56,7 +56,7 @@ public struct Tuku {
     }
     
     
-    public static func httpGET(url: String, headers: [String: String], body: String, postSucceded: (success: Bool, message: String) -> ()){
+    public class func httpGET(url: String, headers: [String: String], body: String, postSucceded: (success: Bool, message: String) -> ()){
         //create request from url param
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "GET"
@@ -82,7 +82,7 @@ public struct Tuku {
         task.resume()
     }
     
-    public static func httpPOST(url: String, headers: [String: String], body: String) {
+    public class func httpPOST(url: String, headers: [String: String], body: String) {
         //create request from url param
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "POST"
@@ -106,7 +106,7 @@ public struct Tuku {
         task.resume()
     }
     
-    public static func httpPOST(url: String, headers: [String: String], body: String, postSucceded: (success: Bool, message: String) -> ()){
+    public class func httpPOST(url: String, headers: [String: String], body: String, postSucceded: (success: Bool, message: String) -> ()){
         //create request from url param
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "POST"
@@ -132,7 +132,7 @@ public struct Tuku {
         task.resume()
     }
     
-    public static func httpPUT(url: String, headers: [String: String], body: String) {
+    public class func httpPUT(url: String, headers: [String: String], body: String) {
         //create request from url param
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "PUT"
@@ -156,7 +156,7 @@ public struct Tuku {
         task.resume()
     }
     
-    public static func httpPUT(url: String, headers: [String: String], body: String, postSucceded: (success: Bool, message: String) -> ()){
+    public class func httpPUT(url: String, headers: [String: String], body: String, postSucceded: (success: Bool, message: String) -> ()){
         //create request from url param
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "PUT"

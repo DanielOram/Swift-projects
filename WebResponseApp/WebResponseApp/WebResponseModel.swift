@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import Tuku
+
+class WebResponseModel {
+    
+    
+    init(){
+        
+    }
+    
+    
+    
+}

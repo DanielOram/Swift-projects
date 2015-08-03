@@ -14,7 +14,6 @@
 		EF94C62F1B6F7C79003C9150 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF94C62E1B6F7C79003C9150 /* Images.xcassets */; };
 		EF94C6321B6F7C79003C9150 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF94C6301B6F7C79003C9150 /* LaunchScreen.xib */; };
 		EF94C63E1B6F7C79003C9150 /* WebResponseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C63D1B6F7C79003C9150 /* WebResponseAppTests.swift */; };
-		EF94C6491B6F8978003C9150 /* Tuku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94C6481B6F8978003C9150 /* Tuku.framework */; };
 		EF94C64B1B6F89B2003C9150 /* WebResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C64A1B6F89B2003C9150 /* WebResponseModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		EF94C6371B6F7C79003C9150 /* WebResponseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebResponseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF94C63C1B6F7C79003C9150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF94C63D1B6F7C79003C9150 /* WebResponseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResponseAppTests.swift; sourceTree = "<group>"; };
-		EF94C6481B6F8978003C9150 /* Tuku.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tuku.framework; sourceTree = "<group>"; };
 		EF94C64A1B6F89B2003C9150 /* WebResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF94C6491B6F8978003C9150 /* Tuku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +122,6 @@
 		EF94C6471B6F8939003C9150 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF94C6481B6F8978003C9150 /* Tuku.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -359,6 +355,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WebResponseApp",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WebResponseApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -373,6 +370,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WebResponseApp",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WebResponseApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -433,6 +431,7 @@
 				EF94C6431B6F7C79003C9150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF94C6441B6F7C79003C9150 /* Build configuration list for PBXNativeTarget "WebResponseAppTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +440,7 @@
 				EF94C6461B6F7C79003C9150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
