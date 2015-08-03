@@ -15,6 +15,7 @@
 		EFAD90A11B70124D00F61869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD909F1B70124D00F61869 /* LaunchScreen.storyboard */; };
 		EFAD90AC1B70124E00F61869 /* ImageViewerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90AB1B70124E00F61869 /* ImageViewerAppTests.swift */; };
 		EFAD90B71B70124E00F61869 /* ImageViewerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90B61B70124E00F61869 /* ImageViewerAppUITests.swift */; };
+		EFAD90C51B7014F700F61869 /* HttpHelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90C41B7014F700F61869 /* HttpHelperClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EFAD90B21B70124E00F61869 /* ImageViewerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAD90B61B70124E00F61869 /* ImageViewerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerAppUITests.swift; sourceTree = "<group>"; };
 		EFAD90B81B70124E00F61869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD90C41B7014F700F61869 /* HttpHelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHelperClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EFAD90921B70124D00F61869 /* ImageViewerApp */ = {
 			isa = PBXGroup;
 			children = (
+				EFAD90C41B7014F700F61869 /* HttpHelperClass.swift */,
 				EFAD90931B70124D00F61869 /* AppDelegate.swift */,
 				EFAD90951B70124D00F61869 /* ViewController.swift */,
 				EFAD90971B70124D00F61869 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				EFAD909C1B70124D00F61869 /* ImageViewerApp.xcdatamodeld in Sources */,
 				EFAD90961B70124D00F61869 /* ViewController.swift in Sources */,
+				EFAD90C51B7014F700F61869 /* HttpHelperClass.swift in Sources */,
 				EFAD90941B70124D00F61869 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageViewerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageViewerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
