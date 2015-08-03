@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAD90941B70124D00F61869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90931B70124D00F61869 /* AppDelegate.swift */; };
+		EFAD90961B70124D00F61869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90951B70124D00F61869 /* ViewController.swift */; };
+		EFAD90991B70124D00F61869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD90971B70124D00F61869 /* Main.storyboard */; };
+		EFAD909C1B70124D00F61869 /* ImageViewerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFAD909A1B70124D00F61869 /* ImageViewerApp.xcdatamodeld */; };
+		EFAD909E1B70124D00F61869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAD909D1B70124D00F61869 /* Assets.xcassets */; };
+		EFAD90A11B70124D00F61869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD909F1B70124D00F61869 /* LaunchScreen.storyboard */; };
+		EFAD90AC1B70124E00F61869 /* ImageViewerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90AB1B70124E00F61869 /* ImageViewerAppTests.swift */; };
+		EFAD90B71B70124E00F61869 /* ImageViewerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD90B61B70124E00F61869 /* ImageViewerAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAD90A81B70124E00F61869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAD90881B70124D00F61869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAD908F1B70124D00F61869;
+			remoteInfo = ImageViewerApp;
+		};
+		EFAD90B31B70124E00F61869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAD90881B70124D00F61869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAD908F1B70124D00F61869;
+			remoteInfo = ImageViewerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAD90901B70124D00F61869 /* ImageViewerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD90931B70124D00F61869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAD90951B70124D00F61869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAD90981B70124D00F61869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAD909B1B70124D00F61869 /* ImageViewerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageViewerApp.xcdatamodel; sourceTree = "<group>"; };
+		EFAD909D1B70124D00F61869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAD90A01B70124D00F61869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAD90A21B70124D00F61869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD90A71B70124E00F61869 /* ImageViewerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD90AB1B70124E00F61869 /* ImageViewerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerAppTests.swift; sourceTree = "<group>"; };
+		EFAD90AD1B70124E00F61869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD90B21B70124E00F61869 /* ImageViewerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD90B61B70124E00F61869 /* ImageViewerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerAppUITests.swift; sourceTree = "<group>"; };
+		EFAD90B81B70124E00F61869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAD908D1B70124D00F61869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD90A41B70124E00F61869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD90AF1B70124E00F61869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAD90871B70124D00F61869 = {
+			isa = PBXGroup;
+			children = (
+				EFAD90921B70124D00F61869 /* ImageViewerApp */,
+				EFAD90AA1B70124E00F61869 /* ImageViewerAppTests */,
+				EFAD90B51B70124E00F61869 /* ImageViewerAppUITests */,
+				EFAD90911B70124D00F61869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAD90911B70124D00F61869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD90901B70124D00F61869 /* ImageViewerApp.app */,
+				EFAD90A71B70124E00F61869 /* ImageViewerAppTests.xctest */,
+				EFAD90B21B70124E00F61869 /* ImageViewerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAD90921B70124D00F61869 /* ImageViewerApp */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD90931B70124D00F61869 /* AppDelegate.swift */,
+				EFAD90951B70124D00F61869 /* ViewController.swift */,
+				EFAD90971B70124D00F61869 /* Main.storyboard */,
+				EFAD909D1B70124D00F61869 /* Assets.xcassets */,
+				EFAD909F1B70124D00F61869 /* LaunchScreen.storyboard */,
+				EFAD90A21B70124D00F61869 /* Info.plist */,
+				EFAD909A1B70124D00F61869 /* ImageViewerApp.xcdatamodeld */,
+			);
+			path = ImageViewerApp;
+			sourceTree = "<group>";
+		};
+		EFAD90AA1B70124E00F61869 /* ImageViewerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD90AB1B70124E00F61869 /* ImageViewerAppTests.swift */,
+				EFAD90AD1B70124E00F61869 /* Info.plist */,
+			);
+			path = ImageViewerAppTests;
+			sourceTree = "<group>";
+		};
+		EFAD90B51B70124E00F61869 /* ImageViewerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD90B61B70124E00F61869 /* ImageViewerAppUITests.swift */,
+				EFAD90B81B70124E00F61869 /* Info.plist */,
+			);
+			path = ImageViewerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAD908F1B70124D00F61869 /* ImageViewerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD90BB1B70124E00F61869 /* Build configuration list for PBXNativeTarget "ImageViewerApp" */;
+			buildPhases = (
+				EFAD908C1B70124D00F61869 /* Sources */,
+				EFAD908D1B70124D00F61869 /* Frameworks */,
+				EFAD908E1B70124D00F61869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageViewerApp;
+			productName = ImageViewerApp;
+			productReference = EFAD90901B70124D00F61869 /* ImageViewerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAD90A61B70124E00F61869 /* ImageViewerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD90BE1B70124E00F61869 /* Build configuration list for PBXNativeTarget "ImageViewerAppTests" */;
+			buildPhases = (
+				EFAD90A31B70124E00F61869 /* Sources */,
+				EFAD90A41B70124E00F61869 /* Frameworks */,
+				EFAD90A51B70124E00F61869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAD90A91B70124E00F61869 /* PBXTargetDependency */,
+			);
+			name = ImageViewerAppTests;
+			productName = ImageViewerAppTests;
+			productReference = EFAD90A71B70124E00F61869 /* ImageViewerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAD90B11B70124E00F61869 /* ImageViewerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD90C11B70124E00F61869 /* Build configuration list for PBXNativeTarget "ImageViewerAppUITests" */;
+			buildPhases = (
+				EFAD90AE1B70124E00F61869 /* Sources */,
+				EFAD90AF1B70124E00F61869 /* Frameworks */,
+				EFAD90B01B70124E00F61869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAD90B41B70124E00F61869 /* PBXTargetDependency */,
+			);
+			name = ImageViewerAppUITests;
+			productName = ImageViewerAppUITests;
+			productReference = EFAD90B21B70124E00F61869 /* ImageViewerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAD90881B70124D00F61869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Danoram;
+				TargetAttributes = {
+					EFAD908F1B70124D00F61869 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EFAD90A61B70124E00F61869 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EFAD908F1B70124D00F61869;
+					};
+					EFAD90B11B70124E00F61869 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EFAD908F1B70124D00F61869;
+					};
+				};
+			};
+			buildConfigurationList = EFAD908B1B70124D00F61869 /* Build configuration list for PBXProject "ImageViewerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAD90871B70124D00F61869;
+			productRefGroup = EFAD90911B70124D00F61869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAD908F1B70124D00F61869 /* ImageViewerApp */,
+				EFAD90A61B70124E00F61869 /* ImageViewerAppTests */,
+				EFAD90B11B70124E00F61869 /* ImageViewerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAD908E1B70124D00F61869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD90A11B70124D00F61869 /* LaunchScreen.storyboard in Resources */,
+				EFAD909E1B70124D00F61869 /* Assets.xcassets in Resources */,
+				EFAD90991B70124D00F61869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD90A51B70124E00F61869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD90B01B70124E00F61869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAD908C1B70124D00F61869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD909C1B70124D00F61869 /* ImageViewerApp.xcdatamodeld in Sources */,
+				EFAD90961B70124D00F61869 /* ViewController.swift in Sources */,
+				EFAD90941B70124D00F61869 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD90A31B70124E00F61869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD90AC1B70124E00F61869 /* ImageViewerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD90AE1B70124E00F61869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD90B71B70124E00F61869 /* ImageViewerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAD90A91B70124E00F61869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAD908F1B70124D00F61869 /* ImageViewerApp */;
+			targetProxy = EFAD90A81B70124E00F61869 /* PBXContainerItemProxy */;
+		};
+		EFAD90B41B70124E00F61869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAD908F1B70124D00F61869 /* ImageViewerApp */;
+			targetProxy = EFAD90B31B70124E00F61869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAD90971B70124D00F61869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD90981B70124D00F61869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAD909F1B70124D00F61869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD90A01B70124D00F61869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAD90B91B70124E00F61869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAD90BA1B70124E00F61869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAD90BC1B70124E00F61869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageViewerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFAD90BD1B70124E00F61869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageViewerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFAD90BF1B70124E00F61869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageViewerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageViewerApp.app/ImageViewerApp";
+			};
+			name = Debug;
+		};
+		EFAD90C01B70124E00F61869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageViewerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageViewerApp.app/ImageViewerApp";
+			};
+			name = Release;
+		};
+		EFAD90C21B70124E00F61869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageViewerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageViewerApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFAD90C31B70124E00F61869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageViewerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Danoram.ImageViewerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageViewerApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAD908B1B70124D00F61869 /* Build configuration list for PBXProject "ImageViewerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD90B91B70124E00F61869 /* Debug */,
+				EFAD90BA1B70124E00F61869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD90BB1B70124E00F61869 /* Build configuration list for PBXNativeTarget "ImageViewerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD90BC1B70124E00F61869 /* Debug */,
+				EFAD90BD1B70124E00F61869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAD90BE1B70124E00F61869 /* Build configuration list for PBXNativeTarget "ImageViewerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD90BF1B70124E00F61869 /* Debug */,
+				EFAD90C01B70124E00F61869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAD90C11B70124E00F61869 /* Build configuration list for PBXNativeTarget "ImageViewerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD90C21B70124E00F61869 /* Debug */,
+				EFAD90C31B70124E00F61869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFAD909A1B70124D00F61869 /* ImageViewerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFAD909B1B70124D00F61869 /* ImageViewerApp.xcdatamodel */,
+			);
+			currentVersion = EFAD909B1B70124D00F61869 /* ImageViewerApp.xcdatamodel */;
+			path = ImageViewerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFAD90881B70124D00F61869 /* Project object */;
+}
